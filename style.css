@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Inter:wght@400;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Concert One', cursive;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.header {
+    font-family: 'Concert One', cursive;
+    background-image: linear-gradient( rgba(0,0,0,0.0), rgba(0,0,0,0)), url(images/bg.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #44A1A0;
+}
+
+.logo {
+    color: #000000;
+    font-size: 25px;
+    font-family: 'Concert One', cursive;
+    font-weight: 400;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #000000;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+    color: #FFFFFF;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #FFFFFF;
+    /*text-transform: uppercase;*/
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 30px;
+    color: #FFFFFF;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+.btn-0 {
+    display: inline-block;
+    padding: 11px 35px;
+    margin-top: 10px;
+    background-color: #0D5C63;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #0D5C63;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.btn-1:hover {
+    background-color: #000000;
+}
+.btn-0:hover {
+    background-color: #000000;
+}
+
+.cursos {
+    font-weight: 400;
+    padding: 100px 0;
+    background-color: #FFFCEF;
+    position: relative;
+}
+
+.cursos-content {
+    text-align: center;
+}
+
+.cursos-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #000000;
+    /*text-transform: uppercase;*/
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p {
+    font-size: 16px;
+    color: #000000;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.cursos-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cursos-1 {
+    padding: 0 25px;
+}
+
+.cursos-1 img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.cursos-1 h3 {
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.general {
+    display: flex;
+}
+
+.general-1 {
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #FFFCEF;
+}
+
+.general-2 {
+    background-image: url(images/maestra.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-3 {
+    background-image: url(images/alumnos.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #000000;
+    margin: 25px 0 45px 0;
+}
+
+.aboutUs {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.aboutUs-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutUs-1 {
+    padding: 15px 55px;
+}
+
+.aboutUs-1 img {
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.aboutUs-1 h3 {
+    font-size: 25px;
+    color: #000000;
+}
+
+.footer {
+    padding: 30px 30px;
+    background-color: #0D5C63;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.link h3 {
+    font-size: 18px;
+    color: #FFFCEF;
+    margin-bottom: 15px;
+}
+
+.link a {
+    font-size: 16px;
+    color: #FFFCEF;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.derechos p {
+    text-align: center;
+    font-size: 16px;
+    color: #FFFCEF;
+    display: block;
+    margin-bottom: 15px;
+}
